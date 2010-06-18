@@ -26,7 +26,7 @@
  */
 namespace PEAR2\Text;
 
-class Markdown_Extra extends Markdown
+class Markdown_Extra extends Markdown_Main
 {
     /**
      * 
@@ -66,4 +66,10 @@ class Markdown_Extra extends Markdown
             'Markdown_Plugin_Break',
         ),
     );
+    
+    function __construct()
+    {
+        $this->_config = $this->_config + $this->_Markdown_Extra + $this->_Markdown;
+        $this->_postConstruct();
+    }
 }

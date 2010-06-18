@@ -24,7 +24,7 @@
  */
 namespace PEAR2\Text;
 
-class Markdown_Wiki extends Markdown
+class Markdown_Wiki extends Markdown_Main
 {
     /**
      * 
@@ -68,4 +68,10 @@ class Markdown_Wiki extends Markdown
             'Markdown_Wiki_Escape',
         ),
     );
+    
+    function __construct()
+    {
+        $this->_config = $this->_config + $this->_Markdown_Wiki + $this->_Markdown;
+        $this->_postConstruct();
+    }
 }

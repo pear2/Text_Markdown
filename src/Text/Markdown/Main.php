@@ -256,34 +256,9 @@ class Markdown_Main
      */
     protected $_chars = '.{}\\';
 
-/**
+    /**
      * 
      * Collection point for configuration values.
-     * 
-     * Note that you do not define config defaults in $_config directly.
-     * 
-     * {{code: php
-     *     // DO NOT DO THIS
-     *     protected $_config = array(
-     *         'foo' => 'bar',
-     *         'baz' => 'dib',
-     *     );
-     * }}
-     * 
-     * Instead, define config defaults in a protected property named for the
-     * class, withan underscore prefix.
-     * 
-     * For exmple, a "Vendor_Class_Name" class would define the default 
-     * config array in "$_Vendor_Class_Name".  This convention lets 
-     * child classes inherit parent config keys and values.
-     * 
-     * {{code: php
-     *     // DO THIS INSTEAD
-     *     protected $_Vendor_Class_Name = array(
-     *         'foo' => 'bar',
-     *         'baz' => 'dib',
-     *     );
-     * }}
      * 
      * @var array
      * 

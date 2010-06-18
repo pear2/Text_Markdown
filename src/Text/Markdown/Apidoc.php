@@ -24,7 +24,7 @@
  */
 namespace PEAR2\Text;
 
-class Markdown_Apidoc extends Markdown
+class Markdown_Apidoc extends Markdown_Main
 {
     /**
      * 
@@ -65,4 +65,10 @@ class Markdown_Apidoc extends Markdown
             'Markdown_Wiki_Escape',
         ),
     );
+    
+    function __construct()
+    {
+        $this->_config = $this->_config + $this->_Markdown_Apidoc + $this->_Markdown;
+        $this->_postConstruct();
+    }
 }
