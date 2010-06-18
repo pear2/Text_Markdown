@@ -183,9 +183,8 @@ class Markdown_Wiki_Link extends Markdown_Plugin
      * @return void
      * 
      */
-    protected function _postConstruct()
+    function __construct()
     {
-        parent::_postConstruct();
         $this->_class = get_class($this);
     }
     

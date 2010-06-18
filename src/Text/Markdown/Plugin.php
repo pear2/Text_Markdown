@@ -113,10 +113,8 @@ abstract class Markdown_Plugin {
      * @return void
      * 
      */
-    protected function _postConstruct()
+    function __construct()
     {
-        parent::_postConstruct();
-        
         $this->_nested_brackets = 
             str_repeat('(?>[^\[\]]+|\[', $this->_nested_brackets_depth).
             str_repeat('\])*', $this->_nested_brackets_depth);
