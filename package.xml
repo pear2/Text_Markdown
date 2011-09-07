@@ -2,18 +2,18 @@
 <package version="2.1" xmlns="http://pear.php.net/dtd/package-2.1" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.1     http://pear.php.net/dtd/package-2.1.xsd">
  <name>PEAR2_Text_Markdown</name>
  <channel>pear2.php.net</channel>
- <summary>Package PEAR2_Text_Markdown summary.
+ <summary>Markdown transforms text into formatted XHTML, similar to wiki syntax.
 </summary>
  <description>
-Package detailed description here (found in README)</description>
+This is a port of Solar_Markdown.</description>
  <lead>
-  <name>Your Name</name>
-  <user>handle</user>
-  <email>handle@php.net</email>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>saltybeagle@php.net</email>
   <active>yes</active>
  </lead>
- <date>2010-06-17</date>
- <time>16:21:08</time>
+ <date>2011-09-07</date>
+ <time>09:34:17</time>
  <version>
   <release>0.1.0</release>
   <api>0.1.0</api>
@@ -25,13 +25,70 @@ Package detailed description here (found in README)</description>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
  <notes>Package PEAR2_Text_Markdown release notes for version 0.1.0.
 
+Change from Solar_ to PEAR2\Text\.
+
 Package PEAR2_Text_Markdown API release notes for version 0.1.0.</notes>
  <contents>
   <dir name="/">
+   <dir name="examples">
+    <file role="doc" name="example1.php"/>
+   </dir>
    <dir name="src" baseinstalldir="PEAR2">
     <dir name="Text">
      <dir name="Markdown">
+      <dir name="Apidoc">
+       <file role="php" name="ClassPage.php"/>
+       <file role="php" name="EmStrong.php"/>
+       <file role="php" name="Link.php"/>
+       <file role="php" name="List.php"/>
+       <file role="php" name="Literal.php"/>
+       <file role="php" name="MethodSynopsis.php"/>
+       <file role="php" name="Paragraph.php"/>
+       <file role="php" name="ProgramListing.php"/>
+       <file role="php" name="Screen.php"/>
+       <file role="php" name="Section.php"/>
+       <file role="php" name="Table.php"/>
+       <file role="php" name="Uri.php"/>
+       <file role="php" name="VariableList.php"/>
+      </dir>
+      <dir name="Extra">
+       <file role="php" name="DefList.php"/>
+       <file role="php" name="EmStrong.php"/>
+       <file role="php" name="Header.php"/>
+       <file role="php" name="Table.php"/>
+      </dir>
+      <dir name="Plugin">
+       <file role="php" name="AmpsAngles.php"/>
+       <file role="php" name="BlockQuote.php"/>
+       <file role="php" name="Break.php"/>
+       <file role="php" name="CodeBlock.php"/>
+       <file role="php" name="CodeSpan.php"/>
+       <file role="php" name="EmStrong.php"/>
+       <file role="php" name="Encode.php"/>
+       <file role="php" name="Header.php"/>
+       <file role="php" name="HorizRule.php"/>
+       <file role="php" name="Html.php"/>
+       <file role="php" name="Image.php"/>
+       <file role="php" name="Link.php"/>
+       <file role="php" name="List.php"/>
+       <file role="php" name="Paragraph.php"/>
+       <file role="php" name="Prefilter.php"/>
+       <file role="php" name="StripLinkDefs.php"/>
+       <file role="php" name="Uri.php"/>
+      </dir>
+      <dir name="Wiki">
+       <file role="php" name="ColorCodeBlock.php"/>
+       <file role="php" name="Escape.php"/>
+       <file role="php" name="Filter.php"/>
+       <file role="php" name="Header.php"/>
+       <file role="php" name="Link.php"/>
+       <file role="php" name="MethodSynopsis.php"/>
+      </dir>
+      <file role="php" name="Apidoc.php"/>
+      <file role="php" name="Extra.php"/>
       <file role="php" name="Main.php"/>
+      <file role="php" name="Plugin.php"/>
+      <file role="php" name="Wiki.php"/>
      </dir>
     </dir>
    </dir>
