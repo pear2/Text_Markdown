@@ -12,8 +12,8 @@ This is a port of Solar_Markdown.</description>
   <email>saltybeagle@php.net</email>
   <active>yes</active>
  </lead>
- <date>2011-09-07</date>
- <time>09:34:17</time>
+ <date>2012-01-26</date>
+ <time>11:55:00</time>
  <version>
   <release>0.1.0</release>
   <api>0.1.0</api>
@@ -33,62 +33,64 @@ Package PEAR2_Text_Markdown API release notes for version 0.1.0.</notes>
    <dir name="examples">
     <file role="doc" name="example1.php"/>
    </dir>
-   <dir name="src" baseinstalldir="PEAR2">
-    <dir name="Text">
-     <dir name="Markdown">
-      <dir name="Apidoc">
-       <file role="php" name="ClassPage.php"/>
-       <file role="php" name="EmStrong.php"/>
-       <file role="php" name="Link.php"/>
-       <file role="php" name="List.php"/>
-       <file role="php" name="Literal.php"/>
-       <file role="php" name="MethodSynopsis.php"/>
-       <file role="php" name="Paragraph.php"/>
-       <file role="php" name="ProgramListing.php"/>
-       <file role="php" name="Screen.php"/>
-       <file role="php" name="Section.php"/>
-       <file role="php" name="Table.php"/>
-       <file role="php" name="Uri.php"/>
-       <file role="php" name="VariableList.php"/>
+   <dir name="src" baseinstalldir="/">
+    <dir name="PEAR2">
+     <dir name="Text">
+      <dir name="Markdown">
+       <dir name="Apidoc">
+        <file role="php" name="ClassPage.php"/>
+        <file role="php" name="EmStrong.php"/>
+        <file role="php" name="Link.php"/>
+        <file role="php" name="List.php"/>
+        <file role="php" name="Literal.php"/>
+        <file role="php" name="MethodSynopsis.php"/>
+        <file role="php" name="Paragraph.php"/>
+        <file role="php" name="ProgramListing.php"/>
+        <file role="php" name="Screen.php"/>
+        <file role="php" name="Section.php"/>
+        <file role="php" name="Table.php"/>
+        <file role="php" name="Uri.php"/>
+        <file role="php" name="VariableList.php"/>
+       </dir>
+       <dir name="Extra">
+        <file role="php" name="DefList.php"/>
+        <file role="php" name="EmStrong.php"/>
+        <file role="php" name="Header.php"/>
+        <file role="php" name="Table.php"/>
+       </dir>
+       <dir name="Plugin">
+        <file role="php" name="AmpsAngles.php"/>
+        <file role="php" name="BlockQuote.php"/>
+        <file role="php" name="Break.php"/>
+        <file role="php" name="CodeBlock.php"/>
+        <file role="php" name="CodeSpan.php"/>
+        <file role="php" name="EmStrong.php"/>
+        <file role="php" name="Encode.php"/>
+        <file role="php" name="Header.php"/>
+        <file role="php" name="HorizRule.php"/>
+        <file role="php" name="Html.php"/>
+        <file role="php" name="Image.php"/>
+        <file role="php" name="Link.php"/>
+        <file role="php" name="List.php"/>
+        <file role="php" name="Paragraph.php"/>
+        <file role="php" name="Prefilter.php"/>
+        <file role="php" name="StripLinkDefs.php"/>
+        <file role="php" name="Uri.php"/>
+       </dir>
+       <dir name="Wiki">
+        <file role="php" name="ColorCodeBlock.php"/>
+        <file role="php" name="Escape.php"/>
+        <file role="php" name="Filter.php"/>
+        <file role="php" name="Header.php"/>
+        <file role="php" name="Link.php"/>
+        <file role="php" name="MethodSynopsis.php"/>
+       </dir>
+       <file role="php" name="Apidoc.php"/>
+       <file role="php" name="Extra.php"/>
+       <file role="php" name="Main.php"/>
+       <file role="php" name="Plugin.php"/>
+       <file role="php" name="Wiki.php"/>
       </dir>
-      <dir name="Extra">
-       <file role="php" name="DefList.php"/>
-       <file role="php" name="EmStrong.php"/>
-       <file role="php" name="Header.php"/>
-       <file role="php" name="Table.php"/>
-      </dir>
-      <dir name="Plugin">
-       <file role="php" name="AmpsAngles.php"/>
-       <file role="php" name="BlockQuote.php"/>
-       <file role="php" name="Break.php"/>
-       <file role="php" name="CodeBlock.php"/>
-       <file role="php" name="CodeSpan.php"/>
-       <file role="php" name="EmStrong.php"/>
-       <file role="php" name="Encode.php"/>
-       <file role="php" name="Header.php"/>
-       <file role="php" name="HorizRule.php"/>
-       <file role="php" name="Html.php"/>
-       <file role="php" name="Image.php"/>
-       <file role="php" name="Link.php"/>
-       <file role="php" name="List.php"/>
-       <file role="php" name="Paragraph.php"/>
-       <file role="php" name="Prefilter.php"/>
-       <file role="php" name="StripLinkDefs.php"/>
-       <file role="php" name="Uri.php"/>
-      </dir>
-      <dir name="Wiki">
-       <file role="php" name="ColorCodeBlock.php"/>
-       <file role="php" name="Escape.php"/>
-       <file role="php" name="Filter.php"/>
-       <file role="php" name="Header.php"/>
-       <file role="php" name="Link.php"/>
-       <file role="php" name="MethodSynopsis.php"/>
-      </dir>
-      <file role="php" name="Apidoc.php"/>
-      <file role="php" name="Extra.php"/>
-      <file role="php" name="Main.php"/>
-      <file role="php" name="Plugin.php"/>
-      <file role="php" name="Wiki.php"/>
      </dir>
     </dir>
    </dir>
